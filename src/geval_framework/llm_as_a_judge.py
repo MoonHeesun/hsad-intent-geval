@@ -35,7 +35,7 @@ class Evaluator:
 
     def _load_dataset(self):
         """Load dataset"""
-        dataset = pd.read_excel("data/eval_dataset.xlsx")
+        dataset = pd.read_excel("data/eval_dataset_new_20250729_063744.xlsx")
 
         required_columns = ["context", "user_utterances", "intent_label"]
         missing_columns = [
